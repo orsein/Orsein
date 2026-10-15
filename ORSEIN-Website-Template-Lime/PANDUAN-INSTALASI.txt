@@ -1,0 +1,30 @@
+ORSEIN — AI Agents & Business Automation
+
+CARA PASANG DI HOSTING
+1. Buka File Manager di cPanel / panel hosting Anda.
+2. Buka document root domain tujuan (biasanya public_html).
+3. Backup website lama jika sudah ada.
+4. Upload ZIP ini lalu Extract. Pastikan index.html berada langsung di document root, bukan di subfolder tambahan.
+5. Buka domain Anda. Aktifkan HTTPS melalui panel hosting bila tersedia.
+
+Tidak perlu npm, Node.js, database, atau proses build. Website ini HTML statis.
+Untuk subdomain, gunakan document root subdomain tersebut.
+
+CARA EDIT
+Buka index.html di editor teks. HTML, CSS, dan JavaScript berada di file yang sama.
+
+FITUR
+- Layout responsif, animasi, menu mobile, dan FAQ.
+- Tiga simulasi alur AI agent (demo lokal, bukan AI backend).
+- Form brief menghasilkan file teks untuk diunduh. Tidak mengirim data ke email atau server.
+
+FONT
+Font DM Sans dan Space Grotesk dimuat dari Google Fonts saat internet tersedia.
+Jika font tidak bisa dimuat, browser menggunakan font sans-serif bawaan.
+
+CATATAN
+Paket ini tidak memuat akun, kredensial, atau konfigurasi hosting ChatGPT.
+Hosting tujuan menentukan akses publik website Anda.
+
+LOGO
+Logo asli berada di assets/orsein-logo-lime.png. Upload folder assets bersama index.html.
